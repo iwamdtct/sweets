@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sweets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/tippy.js/themes/light.css" rel="stylesheet" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link href="css/swiper.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="css/zeynep.css" rel="stylesheet" />
+    <link href="css/base.css" rel="stylesheet" />
+    <script src="css/zeynep.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-container btn-open">
+                <div class="pink header_burger">
+                    <span class="btn-open"></span>
+                </div>
+                <div class="mobile-menu">
+                    <nav class="navigation">
+                        <ul class="nav-list">
+                            <a href="">
+                                <li class="nav-item">Home</li>
+                            </a>
+                            <a href="#form">
+                                <li class="nav-item">Work</li>
+                            </a>
+                            <a href="#tel">
+                                <li class="nav-item">Contact</li>
+                            </a>
+                            <a href="">
+                                <li class="nav-item">Blog</li>
+                            </a>
+                            <a href="">
+                                <li class="nav-item">About</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        </header>
+        <div class="zeynep">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li class="has-submenu">
+                    <a href="#" data-submenu="stores">Stores</a>
+                    <div id="stores" class="submenu">
+                        <div class="submenu-header">
+                            <a href="#" data-submenu-close="stores">Main Menu</a>
+                        </div>
+                        <label>Stores</label>
+                        <ul>
+                            <li>
+                                <a href="#">Istanbul</a>
+                            </li>
+                            <li>
+                                <a href="#">Mardin</a>
+                            </li>
+                            <li>
+                                <a href="#">Amed</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="has-submenu">
+                    <a href="#" data-submenu="categories">Categories</a>
+                    <div id="categories" class="submenu">
+                        <div class="submenu-header">
+                            <a href="#" data-submenu-close="categories">Main Menu</a>
+                        </div>
+                        <label>Categories</label>
+                        <ul>
+                            <li class="has-submenu">
+                                <a href="#" data-submenu="electronics">Electronics</a>
+                                <div id="electronics" class="submenu">
+                                    <div class="submenu-header">
+                                        <a href="#" data-submenu-close="electronics">Categories</a>
+                                    </div>
+                                    <label>Electronics</label>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Camera & Photo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Home Audio</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tv & Video</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Books</a>
+                            </li>
+                            <li>
+                                <a href="#">Video Games</a>
+                            </li>
+                            <li>
+                                <a href="#">Computers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class="zeynep-overlay"></div>
+        <div class="main-block">
+            <div class="container">
+                <div class="main-container">
+                    <div class="main">
+                        <div class="logo-text">
+                            <p class="text">Итак, здесь должен быть какой-то текст.
+                                Так как это произведение не увидит свет,
+                                здесь может быть написано что угодно. На самом деле,
+                                хотелось бы обсудить например концепцию этого шедевра,
+                                но мне лень)))) </p>
+                            <img class="logos" src="/img/s.png">
+                        </div>
+                        <img class="candy" id="myCandy" src="/img/sweets-g8b514f665_1920.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-block">
+            <div class="container">
+                <div class="cards-container">
+                    <div class="cards-items">
+                        <div class="history">
+                            <p class="somehistory one">Корни истории возникновения кондитерских изделий уходят далеко в
+                                древность.Сладости впервые появились в Древнем Египте, Античной Греции и на Ближнем
+                                Востоке,
+                                а затем в
+                                Италии, быстро распространяясь по всему миру благодаря непревзойденному вкусу.</p>
+                            <p class="somehistory">Поскольку сладкие лакомства производились не везде, то мореплавателям
+                                и
+                                купцам приходилось отправляться за ними в опасные и долгие путешествия на Восток. Именно
+                                восточные кондитерские изделия до сих пор славятся своей
+                                оригинальностью, необычностью и большим разнообразием. Сегодня же все самые разные
+                                сладости
+                                излюбого уголка мира можно купить даже в маленьком провинциальном городке.</p>
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-item">
+                                        <img class="chocolate" src="/img/chocolate.jpg">
+                                        <a class="eatme" id="eatMe" href="#signup">buy</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-item">
+                                        <img class="macaroons" src="/img/colorful.jpg">
+                                        <a class="eatme" id="eatMe" href="#signup">buy</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-item">
+                                        <img class="cookie" src="/img/meal.jpg">
+                                        <a class="eatme" id="eatMe" href="#signup">buy</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-item">
+                                        <img class="donuts" src="/img/donuts.jpg">
+                                        <a class="eatme" id="eatMe" href="#signup">buy</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="second-block">
+            <div class="container">
+                <div class="second-container">
+                    <div class="second-items">
+                        <div class="second-item">
+                            <img class="two-macaroons" id="eatMe" src="/img/macaroons.jpg">
+                        </div>
+                        <div class="second-item">
+                            <p class="second-text">Первыми, кто наслаждался вкусом конфет, были древние греки и
+                                египтяне.
+                                Самыми первыми считаются конфеты Древней Греции, изготавливаемые из меда и самых
+                                разнообразных фруктов. В Египте же основным компонентом этих сладостей были финики.
+                                Согласно
+                                истории, египтяне изобрели конфеты совершенно случайно, смешав орехи, мед и финики.
+                                Вплоть
+                                до ХХ столетия конфеты, как правило, изготавливали дома, добавляя в них сладкую патоку,
+                                кленовый сироп и мед, а чтобы сделать леденцы, в рецептуре использовалась имбирная
+                                глазурь и
+                                корень ириса.</p>
+                        </div>
+                    </div>
+                    <div class="second-items">
+                        <div class="reverse">
+                            <div class="second-item">
+                                <img class="choc-candy" id="choco" src="/img/praline-g192fa21a1_1920.jpg">
+                            </div>
+                            <div class="second-item">
+                                <p class="second-text">Но самым популярным кондитерским изделием сегодня является
+                                    шоколад.
+                                    Шоколад появился в Мексике, а первым европейцем, который попробовал шоколадный вкус,
+                                    стал
+                                    Христофор Колумб в XVI веке. Когда Колумб высадился в Америке, то индейцы первым
+                                    делом
+                                    преподнесли ему чашу с темным шоколадом. Но он не смог оценить напиток по
+                                    достоинству,
+                                    только конкистадор Кортес из Испании обратил должное внимание на чудный вкус
+                                    какао-напитка.
+                                    Благодаря этому шоколад распространился по Европе и завоевал её. Но не только
+                                    непревзойденным вкусом обладают сладкие лакомства.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="repeat-block">
+            <div class="container">
+                <div class="repeat-container">
+                    <div class="cards-items">
+                        <div class="swiper repeat">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card-item">
+                                        <img class="chocolate" id="sugarHeaven" src="/img/chocolate.jpg">
+                                        <a class="eatme" href="#signup">buy</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-item">
+                                        <img class="macaroons" id="sugarHeaven" src="/img/colorful.jpg">
+                                        <a class="eatme" href="#signup">buy</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-item">
+                                        <img class="cookie" id="sugarHeaven" src="/img/meal.jpg">
+                                        <a class="eatme" href="#signup">buy</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card-item">
+                                        <img class="donuts" id="sugarHeaven" src="/img/donuts.jpg">
+                                        <a class="eatme" href="#signup">buy</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="marmelad-block">
+            <div class="container">
+                <div class="marmelad-container">
+                    <div class="marmelad-header">
+                        <p class="marmelad">ЛЕГЕНДЫ О МАРМЕЛАДЕ...</p>
+                    </div>
+                    <div class="marmelad-item">
+                        <p class="marmelad-text">Больше других наций этот продукт уважают англичане – каждая вторая
+                            британская семья не может представить себе чаепития без ароматного мармелада. Говорят, что
+                            его
+                            изобрел личный врач Марии, королевы Шотландской.
+                            Он лечил морскую болезнь ее величества апельсиновыми дольками с кожурой, посыпанными
+                            крошеным
+                            сахаром. французский повар, чтобы возбудить аппетит у больной, готовил ей сладкий отвар из
+                            айвы
+                            и апельсинов. Это вкусное блюдо так понравилось королеве, что его постоянно держали на
+                            столике у
+                            кровати. Считалось даже, что само слово "мармелад" произошло от фразы "Marie est malade"
+                            ("Мария
+                            больна"), но это весьма сомнительно. Скорее всего, мармеладные корни лежат в португальском
+                            языке, где marmelo означает "айва".</p>
+                        <p class="marmelad-text">Кстати, французы, у которых мы заимствовали большинство симпатичных
+                            кулинарных слов, мармеладом
+                            изначально называли именно айвовое варенье.
+                            В Шотландии, существует другая легенда о происхождении мармелада.
+                            Этот сладкий продукт "изобрела" некая Дженит Кейлер в начале ХVIII века, когда ее муж купил
+                            много дешевых апельсинов на испанском корабле, спасавшемся от шторма в бухте Данди.
+                            Апельсины
+                            были горькие, но смекалистая миссис Кейлер не растерялась и сделала из них апельсиновый
+                            джем,
+                            который вскоре стал всемирно известным. Нетрудно увидеть и другое: слово "джем" происходит
+                            от
+                            "Дженит" – имени "автора" этой заготовки.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gum-block">
+            <div class="container">
+                <div class="gum-container">
+                    <div class="gum-items">
+                        <div class="gum-item">
+                            <p class="gum-text">23 сентября считается днем рождения жвачки. В этот день в 1848 году
+                                жители
+                                штата Мэн (Новая Англия) Братья Куртис сделали жевательную резинку и стали ее
+                                продавать.В
+                                Древней Греции и на Ближнем Востоке пережевывание смолы мастикового дерева
+                                применялось для очищения зубов. Более 1000 лет индейцы племени майя для тех же целей
+                                использовали сок гевеи (каучук).
+                                Первое промышленное производство жевательной резинки относится к середине XIX века.
+                                Братья
+                                Куртис придумали продавать порционно упакованные кусочки сосновой смолы, смешанной с
+                                пчелиным воском. Добившись в торговле новым продуктом определенного успеха, они в 1850
+                                году
+                                решили расширить производство.</p>
+                            <p class="gum-text">С появлением каучуковой резинки их популярность резко упала. Патент на
+                                производство жвачки из каучука был получен в 1869 году Уильямом Финли Семплом из штата
+                                Огайо, но дальше дело у
+                                него не пошло. И все же именно в этом году каучуковая резинка увидела свет. Ее начал
+                                производить Томас Адамс — житель штата Нью-Йорк.</p>
+                        </div>
+                        <div class="gum-item">
+                            <img class="gum" id="bubble" src="/img/woman-5845498_1920.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-block" id="form">
+            <div class="container">
+                <div class="form-container">
+                    <div class="form-items">
+                        <div class="form-item">
+                            <input type="text" class="forma" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" class="forma" placeholder="Пароль">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" class="forma" placeholder="Ваш e-mail">
+                        </div>
+                        <div class="form-item">
+                            <input type="text" class="forma" placeholder="Введите ответ">
+                        </div>
+                    </div>
+                    <div class="foto-items">
+                        <img class="foto" id="iceCream" src="/img/street-2568713_1920.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-block" id="signup">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-items">
+                        <div class="footer-item">
+                            <div class="footer-list">
+                                <ul class="list">
+                                    <a class="footer-text" href="">
+                                        <p>О нас</p>
+                                    </a>
+                                    <a class="footer-text" href="">
+                                        <p>Новости </p>
+                                    </a>
+                                    <a class="footer-text" href="">
+                                        <p>Галерея</p>
+                                    </a>
+                                    <a class="footer-text" href="">
+                                        <p>Отзывы</p>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-item">
+                            <p class="subscribe-text">Подпишитесь и получайте
+                                первыми лучшие предложения!</p>
+                            <input type="text" class="sub-form" placeholder="Ваш e-mail">
+                            <a class="subscribe txt" href="#">Подписаться</a>
+                        </div>
+                        <div class="footer-item">
+                            <div class="contacts" id="tel">
+                                <a class="tel" href="tel:8 (333) 666-11-67">
+                                    <p>8 (333) 666-11-67</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="after-footer">
+            <div class="container">
+                <div class="after-container">
+                    <div class="after-items">
+                        <div class="after-item">
+                            <img class="vk" src="/img/free-icon-vk.png">
+                            <img class="instagram" src="/img/free-icon-instagram.png">
+                            <img class="facebook" src="/img/free-icon-facebook.png">
+                            <img class="telegram" src="/img/premium-icon-telegram.png">
+                        </div>
+                        <div class="after-item">
+                            <a class="callback content" href="#">
+                                Обратный звонок
+                            </a>
+                        </div>
+                        <div class="after-text">
+                            <p>Лучшиe сладости (с) 1111 Все права защищены.Политика конфиденциальности</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $('.header_burger').click(function (event) {
+                $('.header_burger, .mobile-menu').toggleClass('active');
+                $('body').toggleClass('lock');
+            });
+
+            $('.upheader_burger').click(function (event) {
+                $('.upheader_burger, .sub-menu').toggleClass('active');
+                $('body').toggleClass('lock');
+            });
+
+            var swiperOne = new Swiper(".mySwiper", {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                freeMode: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+            var swiperTwo = new Swiper(".repeat", {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                autoplay: true,
+                freeMode: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+            });
+
+            $(document).ready(function () {
+                $("a").on('click', function (event) {
+                    if (this.hash !== "") {
+                        event.preventDefault();
+                        var hash = this.hash;
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 700, function () {
+                            window.location.hash = hash;
+                        });
+                    }
+                });
+            });
+        </script>
+        <script>
+            $(function () {
+
+                var zeynep = $('.zeynep').zeynep({
+                    opened: function () {},
+                    closed: function () {}
+                })
+                zeynep.on('closing', function () {})
+                $('.zeynep-overlay').on('click', function () {
+                    zeynep.close()
+                })
+
+                //КНОПКА ОТКРЫТИЯ
+                $('.btn-open').on('click', function () {
+                    zeynep.open()
+                })
+            })
+        </script>
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
+        <script>
+            tippy('#myCandy', {
+                content: '<strong><span style="color: pink;font-size: 3em;">you can eat me!</span></strong>',
+                arrow: false,
+                placement: 'left',
+                theme: 'light',
+                trigger: 'click',
+                allowHTML: true,
+            });
+            tippy('#eatMe', {
+                content: '<strong><span style="color: aqua;">эти вкусняшки можно купить только за алмазы!</span></strong>',
+                arrow: true,
+                placement: 'right',
+                allowHTML: true,
+            });
+            tippy('#choco', {
+                content: '<strong><span style="color: red;font-size: 2em;">моя прелесть</span></strong>',
+                arrow: true,
+                placement: 'right',
+                allowHTML: true,
+                delay: 500,
+            });
+            tippy('#sugarHeaven', {
+                content: '<strong><span style="color: yellow;font-size: 3em;background: tomato;">i want to buy all of this</span></strong>',
+                arrow: true,
+                placement: 'right',
+                allowHTML: true,
+                delay: 500,
+                theme: 'light',
+            });
+            tippy('#bubble', {
+                content: '<strong><span style="color: green;font-size: 2em;">надуЙ меня</span></strong>',
+                arrow: true,
+                placement: 'bottom-end',
+                allowHTML: true,
+                theme: 'light',
+                animation: 'scale',
+            });
+            tippy('#iceCream', {
+                content: '<strong><span style="color: yellow;font-size: 3em;">when i hungry i can eat constantly</span></strong>',
+                arrow: true,
+                placement: 'right',
+                allowHTML: true,
+                delay: 500,
+            });
+        </script>
+</body>
+
+</html>
