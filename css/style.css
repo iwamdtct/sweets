@@ -8,32 +8,32 @@
 
 @font-face {
 	font-family: 'HelveticaNeueCyr-UltraLight';
-	src: url('../fonts/helveticaneuecyr-ultralight.eot'); 
-	src: url('../fonts/helveticaneuecyr-ultralight.eot?#iefix') format('embedded-opentype'), 
+	src: url('../fonts/helveticaneuecyr-ultralight.eot');
+	src: url('../fonts/helveticaneuecyr-ultralight.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/helveticaneuecyr-ultralight.woff2') format('woff2'),
-		url('../fonts/helveticaneuecyr-ultralight.woff') format('woff'), 
-		url('../fonts/helveticaneuecyr-ultralight.ttf') format('truetype'), 
-		url('../fonts/helveticaneuecyr-ultralight.svg#helveticaneuecyr-ultralight') format('svg'); 
+		url('../fonts/helveticaneuecyr-ultralight.woff') format('woff'),
+		url('../fonts/helveticaneuecyr-ultralight.ttf') format('truetype'),
+		url('../fonts/helveticaneuecyr-ultralight.svg#helveticaneuecyr-ultralight') format('svg');
 }
 
 @font-face {
 	font-family: 'Nexa Script Light';
-	src: url('../fonts/nexa_script_light.eot'); 
-	src: url('../fonts/nexa_script_light.eot?#iefix') format('embedded-opentype'), 
-		url('../fonts/nexa_script_light.woff2') format('woff2'), 
-		url('../fonts/nexa_script_light.woff') format('woff'), 
-		url('../fonts/nexa_script_light.ttf') format('truetype'), 
-		url('../fonts/nexa_script_light.svg#nexa_script_light') format('svg'); 
+	src: url('../fonts/nexa_script_light.eot');
+	src: url('../fonts/nexa_script_light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/nexa_script_light.woff2') format('woff2'),
+		url('../fonts/nexa_script_light.woff') format('woff'),
+		url('../fonts/nexa_script_light.ttf') format('truetype'),
+		url('../fonts/nexa_script_light.svg#nexa_script_light') format('svg');
 }
 
 @font-face {
 	font-family: 'Majestic X';
-	src: url('../fonts/majestic_x.eot'); 
-	src: url('../fonts/majestic_x.eot?#iefix') format('embedded-opentype'), 
-		url('../fonts/majestic_x.woff2') format('woff2'), 
-		url('../fonts/majestic_x.woff') format('woff'), 
-		url('../fonts/majestic_x.ttf') format('truetype'), 
-		url('../fonts/majestic_x.svg#majestic_x') format('svg'); 
+	src: url('../fonts/majestic_x.eot');
+	src: url('../fonts/majestic_x.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/majestic_x.woff2') format('woff2'),
+		url('../fonts/majestic_x.woff') format('woff'),
+		url('../fonts/majestic_x.ttf') format('truetype'),
+		url('../fonts/majestic_x.svg#majestic_x') format('svg');
 }
 
 a:hover {
@@ -634,7 +634,7 @@ p:hover {
 
     .repeat-block {
         height: 360px;
-    }    
+    }
     .marmelad-block {
         height: 650px;
     }
@@ -809,4 +809,43 @@ p:hover {
 
 
 
+}
+.wordart {
+    width: 300px;
+}
+
+.popup-fade {
+    display: none;
+}
+
+.popup-fade:before {
+    content: '';
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999999999;
+}
+
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    padding: 20px;
+    width: 360px;
+    margin-left: -200px;
+    background: #fff;
+    border: 1px solid orange;
+    border-radius: 4px;
+    z-index: 9999999999;
+    opacity: 1;
+}
+
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
