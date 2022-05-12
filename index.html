@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>СВЕТКА</title>
+    <title>Sweet World</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link href="https://unpkg.com/tippy.js/themes/light.css" rel="stylesheet" />
@@ -15,6 +15,8 @@
     <link href="css/zeynep.css" rel="stylesheet" />
     <link href="css/base.css" rel="stylesheet" />
     <script src="css/zeynep.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/sweetalert.js"></script>
 </head>
 
 <body>
@@ -28,19 +30,19 @@
                     <nav class="navigation">
                         <ul class="nav-list">
                             <a href="">
-                                <li class="nav-item">Home</li>
+                                <li class="nav-item">Главная</li>
                             </a>
                             <a href="#form">
-                                <li class="nav-item">Work</li>
+                                <li class="nav-item">Работа</li>
                             </a>
                             <a href="#tel">
-                                <li class="nav-item">Contact</li>
+                                <li class="nav-item">Контакты</li>
                             </a>
                             <a href="">
-                                <li class="nav-item">Blog</li>
+                                <li class="nav-item">Блог</li>
                             </a>
                             <a href="">
-                                <li class="nav-item">About</li>
+                                <li class="nav-item">О нас</li>
                             </a>
                         </ul>
                     </nav>
@@ -413,7 +415,7 @@
                             <img class="telegram" src="/img/premium-icon-telegram.png">
                         </div>
                         <div class="after-item">
-                            <a class="callback content" href="#">
+                            <a class="callback popup-open content">
                                 Обратный звонок
                             </a>
                         </div>
@@ -424,7 +426,13 @@
                 </div>
             </div>
         </div>
-
+        <div class="popup-fade">
+            <div class="popup">
+                <a class="popup-close" href="#">X</a>
+                <p>Подпишись не пожалеешь!</p>
+                <img class="wordart" src="img/wordart.png" alt="">
+            </div>
+        </div>
         <script>
             $('.header_burger').click(function (event) {
                 $('.header_burger, .mobile-menu').toggleClass('active');
